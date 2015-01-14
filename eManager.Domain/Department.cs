@@ -10,6 +10,9 @@ namespace eManager.Domain
     {
         private int _Id;
 
+        /// <summary>
+        /// Id of Department
+        /// </summary>
         public virtual int Id
         {
             get { return _Id; }
