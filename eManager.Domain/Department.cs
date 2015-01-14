@@ -21,6 +21,9 @@ namespace eManager.Domain
 
         private string _name;
 
+        /// <summary>
+        /// name of department
+        /// </summary>
         public virtual string Name
         {
             get { return _name; }
